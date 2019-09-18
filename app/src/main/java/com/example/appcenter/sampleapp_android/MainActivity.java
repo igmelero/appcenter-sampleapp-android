@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCenter.start(getApplication(), "<APP SECRET HERE>",
-                Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "80e7229e-9cf1-4379-8500-6c4f1b2cffce",
+                  Analytics.class, Crashes.class);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_root);
 
